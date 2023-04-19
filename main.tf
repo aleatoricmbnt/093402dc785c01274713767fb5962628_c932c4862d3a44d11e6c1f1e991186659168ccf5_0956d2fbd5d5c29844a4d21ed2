@@ -1,4 +1,4 @@
-resource "null_resource" "1_var_trigger" {
+resource "null_resource" "_1_var_trigger" {
   triggers = {
     "key" = var.value
   }
